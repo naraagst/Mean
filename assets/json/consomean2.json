@@ -1,0 +1,16 @@
+{
+	"consomeanfrek":[
+		{
+			"soal":"<b>Soal :</b><br/>Tentukan rata-rata dari data berikut!",
+			"data":"<center><img src='../../assets/gambar/consomean6.png' style='width:70%'></center>",
+			"soal2":"",
+			"pembahasan":"<p><b>Pembahasan :</b><br/><img src='../../assets/gambar/consomean8.png' width='80%'><br/>Jadi, rata-rata dari data pada tabel di atas adalah <b>6,1</b></p>"
+		},
+		{
+			"soal":"<b>Soal :</b><br/>Berikut ini adalah data tinggi badan siswa kelas VI SDN Nusa Indah.",
+			"data":"<center><img src='../../assets/gambar/consomean5.png' style='width:70%'></center>",
+			"soal2":"",
+			"pembahasan":"<p><b>Pembahasan :</b><br/><img src='../../assets/gambar/consomean7.png' style='width:80%'><br/>Jadi, rata-rata tinggi badan siswa kelas VI SDN Nusa Indah adalah <b>150,08 cm</b>.</p>"
+		}
+	]
+}  

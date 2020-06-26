@@ -1,0 +1,97 @@
+@font-face {    
+  font-family: 'Poppins';    
+  src: url('../font/Poppins-Regular.ttf') format('truetype');    
+  font-weight: normal;    
+  font-style: normal;
+}
+
+.background {
+  height:1000px;
+  width:100%;
+?}
+
+.menu{
+  margin-left: 9%;
+}
+
+.container{
+  position:absolute;
+  height: 60%;
+  width: 60%;
+  top:10%;
+  left:20%;
+  color:white;
+}
+
+.logo1 img{
+  width:80%;
+}
+
+.logo1{
+  margin-top: 5%;
+}
+.wadah{
+  width:28%;
+  float:left;
+  margin-top: 5%;
+}
+
+.wadah img{
+  width:100%;
+}
+
+.gambar{
+  padding:10%;
+  background-color: #7522b0;
+  height:170px;
+}
+
+.gambar img{
+  width:95%;
+  height: 160px;
+}
+
+.gambar:hover{
+  background-color: rgb(253,209,0,0.8);
+}
+
+.tulisan{
+  visibility: hidden;
+  color: #7522b0;
+  padding: 1%;
+  margin-top: -3%;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  background-color:rgb(253,209,0,0.8);
+  font-weight: bolder;
+  border-top: 2px dashed #7522b0;
+  letter-spacing: 2px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.wadah:hover .tulisan{
+  visibility: visible;
+  opacity: 1;
+}
+
+/*
+.menu{
+  margin-top: 50px;
+  margin-left:6%;
+  width: 100%;
+}
+.menu img{
+  width:25%;
+  background-color: rgb(0,156,255);
+  padding:20px;
+  margin-left:-1%;
+}
+.menu a{
+  width:2500px;
+  color: white;
+}
+.menu img:hover{
+  background-color: black;
+}*/

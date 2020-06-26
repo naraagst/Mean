@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>STATISTIKA</title>
+	
+		<link href="../../assets/css/statistik.css" rel="stylesheet">	
+		<link href="../../assets/css/materi2.css" rel="stylesheet">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+		</script>
+		<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+		<script>
+			window.onload = function awal(){
+				// document.getElementById("cmean1").style="border:5px solid rgb(0,156,255, 0.5);border-bottom: none;background-color: white;";
+				document.getElementById("containermodus").hidden=true;
+			};
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<a href="../../index.html"><img src="../../assets/gambar/logo.png" id="logo" style="float:left"/></a>
+		</div>
+		<div class="konten">
+			<div class="subkonten">
+			<div class="materi">
+				<h3 style="padding-left:20%;padding-right:20%">Menentukan Mean dari Tabel Distribusi Frekuensi</h3>
+				<div class="submateri5">
+					<p>Sebelumnya telah dipelajari bahwa mean dari sekumpulan data adalah jumlah seluruh nilai data dibagi oleh banyaknya data. Jika data disajikan dalam bentuk tabel frekuensi, maka mean dari data itu dirumuskan sebagai berikut :</p>
+					<p><img src="../../assets/gambar/rumusmeanfrek.png"  class="frame" style="margin-left:25%"></p>
+					<p>dengan:<br/>$\bar{x}$ = rata-rata (mean)<br/>$f_i$ = frekuensi data ke-<i>i</i><br/>$x_i$ = nilai data ke-<i>i</i></p>
+				</div>
+			</div>
+			<div class="conso" id="conso" style="overflow-y: hidden">
+				<div class="btn-group2">
+					<a onclick="consomean()" id="cmean1">Contoh Soal</a>
+					<a onclick="cobamean()" id="cmean2">Latihan</a>
+				</div>
+				<div id="containermodus">
+					<div id="consomodus">
+						<p id="soalmodus"></p>
+						<div id="datamodus" class="soalmodus"></div>
+						<p id="soalmodus2"></p>
+						<div id="pembahasanmean">
+							
+						</div>              
+						<div class="consonav">
+							<a id="prev"><img src="../../assets/gambar/prev.png"/></a>
+							<div class="consonav1"><span id="noconso"></span> dari <span id="jlhsoal"></span></div>
+							<a id="next"><img src="../../assets/gambar/next.png"/></a>
+						</div>
+					</div>
+					<div id="cobamodus">
+						<div class="petunjuk">
+							<a href=javascript:void(0) onclick="petunjuk()"><p id="petunjuka"><b>Klik untuk menyembunyikan petunjuk</b></p>
+							<div id="petunjuk">
+							<ul>
+									<li>Hitunglah mean dari setiap soal berikut, kemudian isi jawabannya pada kolom input yang telah disediakan. </li> 
+									<li>Klik tombol "Cek Jawaban" untuk memeriksa apakah jawaban benar atau salah.</li> 
+									<li>Klik tombol "Soal Lain" untuk beralih ke soal selanjutnya.</li>
+									<li>Jika terdapat jawaban berupa bilangan desimal, bulatkan menjadi 2 angka dibelakang koma. Kemudian ganti tanda koma (,) menjadi titik (.), <b>contoh : 73.92</b></li>
+								</ul></a>
+							</div>
+						</div>
+						<h3 style="text-align: left;padding-left: 20px;">Soal :</h3>
+							<p id="soal"></p>
+							<div id="gbr">			
+							</div>
+							<div id="jwb" class="fontt" style="margin-bottom: 10px;">
+								<span style="display:none;" id="jwbsoal"></span>
+								Jawab :
+								<input type="text" id="jwbsiswa"/>
+								<span id="hasilbenar" style="color:green"></span>
+								<span id="hasilsalah" style="color:red"></span>
+							</div>
+						<center>
+						<div class="menulat" style="margin-bottom: 10px;">
+							<button id="cekjwb" class="cek">Cek Jawaban</button>
+							<button id="acaksoal" class="cek">Soal Lain</button>
+						</div>
+						</center>
+					</div>
+				</div>
+
+			</div>
+			</div>
+			<div class="halaman">
+				<div class="btn-group">
+					<a href="mean3.html"><< Sebelumnya</a>
+					<a href="mean1.html">1</a>
+					<a href="mean2.html">2</a>
+					<a href="mean3.html">3</a>
+					<a href="#"  class="active">4</a>
+					<!-- <a href="mean5.html">5</a> -->
+					<a href="#" style="cursor: not-allowed;">Selanjutnya >></a>
+				</div>
+			</div>
+		</div>
+
+		<script src="../../assets/js/style.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="../../assets/js/mean4.js"></script>
+	</body>
+	
+</html>

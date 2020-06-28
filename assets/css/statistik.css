@@ -11,7 +11,7 @@ html {
 body {
     height: 100%;
     overflow: hidden;
-    background-color: #ececec;
+    background-image:url('../gambar/bg.png');
 }
 
 @font-face {

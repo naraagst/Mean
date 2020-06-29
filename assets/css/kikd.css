@@ -2,50 +2,20 @@ body{
 	background-color: rgb(0,156,255,0.2);
 }
 
-.kikdmenu{
-	width:17%;
-	height:60%;
-	font-family: Poppins;
-	margin-left:5%;
-	margin-top: 2%;
-	float: left;
-}
-.kikdmenu a{
-	background-color: black;
-	padding:7%;
-	text-decoration: none;
-	color:white;
-	font-size:18px;
-	font-weight:bold;
-	display:block; 
-	border-radius: 12px 0px 0px 12px;
-}
-.kikdmenu a:hover{
-	color: rgb(0,156,255);
-}
-.kikdmenu li{
-	list-style-type: none;
-}
-.kikdmenu .active{
-	background-color: rgb(0,156,255);
-	color:black;
-}
-.kikdmenu .active:hover{
-	color:black;
-}
 .kikdisi{
 	width:70%;
 	height:70%;
 	background-color: white;
 	float: left;
 	margin-top: 2%;
-	border: 5px solid rgb(0,156,255);
+	border: 5px solid #7522b0;
 	overflow-y: auto;
 	overflow-x: hidden;
+	margin-left:15%;
 }
 .kikdisi h1{
-	color: rgb(0,106,150);
-	border-bottom: 3px dashed rgb(0,156,255,0.5);
+	color: #4a027e;
+	border-bottom: 3px dashed rgb(117,34,176,0.5);
 	font-family:Poppins-Bold;
 	font-weight: bold;
 	margin:2%;

@@ -71,8 +71,8 @@ function cek(){
     document.getElementById("cmean1").style="pointer-events:auto;opacity:100%;";
     document.getElementById("cmean2").style="pointer-events:auto;opacity:100%;";
     document.getElementById("containermodus").hidden = false;
-    document.getElementById("cmean1").style="border:5px solid rgb(0,156,255, 0.5);border-bottom: none;background-color: white;";
-    document.getElementById("cmean2").style = "background-color:rgb(0,156,255, 0.5);border:1px solid white;";
+    document.getElementById("cmean1").style="border:5px solid rgb(159,85,212, 0.5);border-bottom: none;background-color: white;";
+    document.getElementById("cmean2").style = "background-color:rgb(159,85,212, 0.5);border:1px solid white;";
     document.getElementById("consomodus").hidden=false;
     document.getElementById("cobamodus").hidden=true;
     document.getElementById("cekdd").hidden=true;
